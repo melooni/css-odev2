@@ -1,0 +1,104 @@
+
+img {
+    margin-top: 3%;
+    box-sizing: content-box;
+}
+
+p {
+    text-align: center;
+    padding: 3px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-sizing: inherit;
+    margin: 0;
+    font-size:large;
+}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+#search-wrapper {
+    padding-bottom: 20px;
+}
+
+center {
+    display: block;
+    text-align: -webkit-center;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    
+}
+
+#second {
+    margin-top: 2px;
+    height: 30px;
+}
+
+#EEEEE {
+    color: initial;
+    font-family: 'Pixelated MS Sans Serif';
+}
+
+input {
+    
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+button, fieldset, img, input, textarea {
+    border: 0;
+    outline: 0;
+}
+
+.search-wrapper, body, button, input {
+    transition: background 600ms ease-in-out;
+}
+
+input {
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+input[type=submit] {
+    vertical-align: top;
+    font-size: 13px;
+    line-height: normal;
+    background: silver;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+    border: none;
+    border-radius: 0;
+    height: 25px;
+    padding: 0 25px;
+}
+
